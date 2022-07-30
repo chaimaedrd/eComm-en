@@ -30,5 +30,17 @@
         height:500px;
         padding-top:100px
     }
+     /* product view page */
+    .slider-img{
+        height:400px !important;
+        width:1200px !important;
+    }
+    .custom-product{
+        height:600px;
+    }
+
+    .slider-caption{
+        background-color: #00000045;
+    }
 </style>
 </html>
