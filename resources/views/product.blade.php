@@ -4,7 +4,7 @@
 @section("content")
 
 <div class = "container custom-product">
-         <h2>Basic Carousel doesnt work (doesnt move)</h2>
+   <h2>Basic Carousel doesnt work (doesnt move)</h2>
          <div id = "carouselwithIndicators" class = "carousel slide " data-ride = "carousel">
             <ol class = "carousel-indicators">
                <li data-target = "#carouselExampleIndicators" data-slide-to = "0" class = "active"></li>
@@ -36,7 +36,18 @@
                <span class = "sr-only">Next</span>
             </a>
          </div>
-      </div>
+         <div class="trending-wrapper">
+            <h3>Trending Products</h3>
+            @foreach($products as $item)
+            <div class="trending-item">
+               <img class="trending-img" src="{{$item['galery']}}">
+               <div class="">
+                  <h3>{{$item['name']}}</h3>
+               </div>
+            </div>
+            @endforeach
+         </div>     
+</div>
 @endsection
 
 

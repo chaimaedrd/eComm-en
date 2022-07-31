@@ -21,16 +21,17 @@
     {{View::make('header')}}
 
     @yield("content")
-    
+
     {{View::make('footer')}}
 
 </body>
 <style>
+    
     .custom-login{
         height:500px;
         padding-top:100px
     }
-     /* product view page */
+     /* carousel in the product view page */
     .slider-img{
         height:400px !important;
         width:1200px !important;
@@ -41,6 +42,19 @@
 
     .slider-caption{
         background-color: #00000045;
+    }
+    /* Trending Wrapper in the product view page */
+    .trending-img{
+        height:100px;
+        width:;
+    }
+    .trending-item{
+        /* the float here was done for the footer also i dont know whyyyyyyyyyy  then i used a style: clear:both in the footer page to fix it*/
+        float:left;
+        width:20%;
+    }
+    .trending-wrapper{
+        margin:30px;
     }
 </style>
 </html>
