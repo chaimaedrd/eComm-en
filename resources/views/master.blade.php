@@ -31,6 +31,7 @@
         height:500px;
         padding-top:100px
     }
+
      /* carousel in the product view page */
     .slider-img{
         height:400px !important;
@@ -43,6 +44,7 @@
     .slider-caption{
         background-color: #00000045;
     }
+
     /* Trending Wrapper in the product view page */
     .trending-img{
         height:100px;
@@ -55,6 +57,11 @@
     }
     .trending-wrapper{
         margin:30px;
+    }
+
+    /* Details in the detail view page */
+    .detail-img{
+        height:200px;
     }
 </style>
 </html>
