@@ -63,5 +63,16 @@
     .detail-img{
         height:200px;
     }
+
+    /* fix the taille of images in the cart list images : cartliste.blade.php */
+    .cart-image{
+        height:100px;
+        width:100px;
+    }
+   .cart-list-devider{  /* used for the spacing between two products in the cart list */
+        border-bottom:1px solid #ccc;
+        margin-bottom:20px;
+        padding-bottom:20px
+    }
 </style>
 </html>

@@ -28,7 +28,7 @@
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
       <li class="nav-item">
-        <a class="nav-link" href="#">Cart({{$total}})</a>
+        <a class="nav-link" href="/cartlist">Cart({{$total}})</a>
       </li>
 
       <!-- The dropdown doesnt work -->
