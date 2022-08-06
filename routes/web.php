@@ -32,5 +32,6 @@ Route::get('cartlist',[ProductController::class,'cartlist']);
 Route::get('removecart/{id}',[ProductController::class,'removecart']);
 Route::get('ordernow',[ProductController::class,'orderNow']);
 Route::post('orderplace',[ProductController::class,'orderPlace']);
+Route::get('myorders',[ProductController::class,'myOrders']);
 
 
